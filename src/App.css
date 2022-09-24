@@ -1,0 +1,331 @@
+* {
+    overflow-x: hidden;
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/62ee075edf1bb80a390bdd92_Rectangle%201%20(91).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SIGNUP CSS */
+
+.signup_main {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    overflow-y: hidden;
+}
+
+.signup_cont {
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 33rem;
+    overflow-y: hidden;
+}
+
+.signup_input {
+    width: 100%;
+    height: 5vh;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 5%;
+    outline: none;
+
+}
+
+.signup_file {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.signup_file_lable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.325);
+    margin-bottom: 5%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.325);
+    cursor: pointer;
+}
+
+
+
+/* NAVBAR CSS */
+
+.nav_container {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(63, 230, 248, 0.597);
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    z-index: 10;
+    color: white
+}
+
+.nav_logo {
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.nav_links {
+    display: flex;
+    flex: 1;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.subnav_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 51, 0, 0.418);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 10vh;
+    align-items: center;
+    width: 50%;
+    height: 5vh;
+    cursor: pointer;
+    color: white
+}
+
+
+/*------------------HOME------------------------- */
+.home {
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+}
+
+/* ------------------USERS------------------------- */
+
+/*----------- FEED CSS--------------------- */
+
+.feed_singlepost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15vh;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+/*----------- UPLOAD CSS--------------------- */
+
+.upload_cont {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 10vh;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------SinglePost CSS---------------- */
+
+.singlepost_cont {
+    width: 20rem;
+    height: 25rem;
+    margin: 1%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.singlepost_img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    overflow-y: hidden;
+}
+
+.singlepost_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.singlepost_info>div {
+    background-color: rgba(0, 0, 0, 0.355);
+}
+
+.singlepost_footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 255, 251, 0.59);
+    overflow-y: hidden;
+}
+
+
+/* CART CSS */
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgba(255, 255, 255, 0.774);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cart_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vh;
+}
+
+.cart_info {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cart_counters {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart_delete {
+    height: 100%;
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRODUCT CSS */
+
+.prod_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 11vh;
+    width: 90vw;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.prod_cont_img {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 50vh;
+}
+
+.prod_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+}
+
+.prod_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 5vh;
+}
+
+.prod_reviews {
+    margin-top: 1vh;
+    width: 100%;
+    height: 40vh;
+    overflow-y: scroll;
+    background-color: rgba(218, 245, 110, 0.388);
+}
+
+.prod_reviews>div {
+    background-color: rgba(255, 0, 0, 0.415);
+    display: flex;
+    align-items: center;
+    width: 92%;
+    margin: 10px;
+    color: white
+}
+
+.messageform_cont {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 5vh;
+}
+
+/* ----------------RESPNSIVE/MEDIA QUERIES------------------------- */
+
+@media(max-width: 400px) {
+
+    * {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .signup_cont {
+        width: 80%;
+        height: 60%;
+    }
+
+}
